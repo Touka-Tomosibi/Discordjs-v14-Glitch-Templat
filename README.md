@@ -40,4 +40,5 @@ Discord.js v14用Glitchのテンプレートです。
 コピペしてご使用ください。  
 
 Discordjs-Japanさんの記事を参考にさせていただきました。  
-参考にさせていただいた記事は[こちら](https://scrapbox.io/discordjs-japan/Glitch%E3%81%A7BOT%E3%82%92%E4%BD%9C%E3%82%8B%E6%89%8B%E9%A0%86)です。
+参考にさせていただいた記事は[こちら](https://scrapbox.io/discordjs-japan/Glitch%E3%81%A7BOT%E3%82%92%E4%BD%9C%E3%82%8B%E6%89%8B%E9%A0%86)です。  
+GlitchのURLは[こちら](https://glitch.com/edit/#!/discordjs-v14-node-v16-templates)です。
