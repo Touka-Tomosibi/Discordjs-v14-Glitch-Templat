@@ -44,7 +44,7 @@ module.exports = {
        
         url.push(`${interaction.options.getString('url')}`)
 
-		connection = joinVoiceChannel({
+		    connection = joinVoiceChannel({
             channelId: channel.id,
             guildId: channel.guild.id,
             adapterCreator: channel.guild.voiceAdapterCreator,

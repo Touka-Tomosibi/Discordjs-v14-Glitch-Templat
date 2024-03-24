@@ -18,10 +18,10 @@ http
         var dataObject = querystring.parse(data);
         console.log("post:" + dataObject.type);
         if (dataObject.type == "wake") {
-          console.log("Woke up in post");
+          console.log("Woke up in post"); 
           res.end();
           return;
-        }
+        } 
         res.end();
       });
     } else if (req.method == "GET") {
@@ -69,5 +69,7 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
+
+require('./deploy-commands.js');
 
 client.login(token);
