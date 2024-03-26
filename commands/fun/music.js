@@ -37,7 +37,7 @@ module.exports = {
 
         var url2 = interaction.options.getString('url');
 
-        if (!url2.startsWith('https://youtu.be' || 'https://www.youtube' || 'https://m.youtube.com' || 'https://music.youtube'))  { 
+        if (!url2.startsWith('https://youtu.be'))  { 
             await interaction.reply('YouTubeのURLを送信してください');
             return
         }
@@ -92,4 +92,3 @@ module.exports = {
     }
 }
 };
-        

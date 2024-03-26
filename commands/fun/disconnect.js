@@ -9,6 +9,9 @@ module.exports = {
         
         
     const channel = interaction.member.voice.channel; 
+    
+    if (!channel) return await interaction.reply('ボイスチャンネルに入室してください。');
+    
 		const connection = joinVoiceChannel({
             channelId: channel.id,
             guildId: channel.guild.id,
