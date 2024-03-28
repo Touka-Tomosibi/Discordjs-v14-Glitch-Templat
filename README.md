@@ -10,8 +10,12 @@ Discord.js v14用Glitchのテンプレートです。
 
 <br>
 
+tokenの作成等最初にやるべきことが終わっていない場合最下部の参考記事をご覧ください
 
-※1　commandsフォルダの`music`が該当します。
+<br>
+
+
+※1　commandsフォルダの`music.js`が該当します。
 
 <br>
 
