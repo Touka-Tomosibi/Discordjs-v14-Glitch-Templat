@@ -1,7 +1,9 @@
+//変更禁止
+
+//GASのコード
+
 const http = require("http");
 const querystring = require("node:querystring");
-
-//GASでwakeさせること。
 
 http
   .createServer(function(req, res) {
@@ -31,12 +33,15 @@ http
   })
   .listen(3000);
 
+
+//ここからDiscord.jsのコード
+
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const token = process.env.DISCORD_BOT_TOKEN;
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMessages,  GatewayIntentBits.GuildVoiceStates] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.MessageContent] });
 
 client.commands = new Collection();
 const foldersPath = path.join(__dirname, 'commands');
