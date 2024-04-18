@@ -44,12 +44,14 @@ tokenの作成等コードを書く前にやるべきことが終わっていな
 コマンドは`commands/fun/`に入れてください。  
 メッセージに反応は`events/`に入れてください。  
 <br>
-それぞれの作成テンプレートをそれぞれのフォルダ内に`.rei.md`として入っています。  
+それぞれの作成案内をそれぞれのフォルダ内に`.rei.md`として入っています。  
 コピペしてご使用ください。  
 
 <br>
 
 # 最後に 
+
+`server.js`と`deploy-commands.js`はDiscord.js Guideをコピペしたものになっています。  
 
 Discordjs-Japanさんの記事を参考にさせていただきました。  
 参考にさせていただいた記事は[こちら](https://scrapbox.io/discordjs-japan/Glitch%E3%81%A7BOT%E3%82%92%E4%BD%9C%E3%82%8B%E6%89%8B%E9%A0%86)です。  
