@@ -1,5 +1,3 @@
-//https://glitch.com/edit/#!/remix/discordjs-v14-node16-templates-ver2
-
 const { Events } = require('discord.js');
 
 module.exports = {
